@@ -1,0 +1,16 @@
+.image__offer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+    position: absolute;
+    bottom: 14px;
+    left: 13px;
+    width: 103px;
+    height: 58px;
+    border-radius: 7px;
+    background-color: #f19d2f;
+    padding: 9px 7px;
+    box-sizing: border-box;
+  }

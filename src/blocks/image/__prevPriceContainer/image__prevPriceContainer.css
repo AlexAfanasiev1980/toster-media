@@ -1,0 +1,5 @@
+.image__prevPriceContainer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }

@@ -1,0 +1,8 @@
+.image__timer {
+    display: flex;
+    justify-content: center;
+    font-size: 21px;
+    font-weight: 700;
+    color: #fff;
+    width: 89px;
+  }

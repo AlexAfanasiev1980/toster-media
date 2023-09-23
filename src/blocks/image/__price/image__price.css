@@ -1,0 +1,9 @@
+.image__price {
+    position: absolute;
+    width: 116px;
+    height: 58px;
+    bottom: 14px;
+    right: 13px;
+    border-radius: 6px;
+    background: #37d997;
+  }

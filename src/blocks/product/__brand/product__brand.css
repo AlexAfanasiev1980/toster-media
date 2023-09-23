@@ -1,0 +1,5 @@
+.product__brand {
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }

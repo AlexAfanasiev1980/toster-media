@@ -1,0 +1,9 @@
+.product__circle {
+    position: absolute;
+    top: 8px;
+    right: 54px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #f19d2f;
+  }

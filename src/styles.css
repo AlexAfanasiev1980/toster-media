@@ -1,0 +1,123 @@
+@import url(./vendor/font.css);
+@import url(./vendor/normalize.css);
+@import url(./blocks/header/header.css);
+@import url(./blocks/product/__header/product__header.css);
+@import url(./blocks/product/__brand/product__brand.css);
+@import url(./blocks/product/__circle/product__circle.css);
+@import url(./blocks/product/__name/product__name.css);
+@import url(./blocks/image/__currentPrice/image__currentPrice.css);
+@import url(./blocks/image/__line/image__line.css);
+@import url(./blocks/image/__offer/image__offer.css);
+@import url(./blocks/image/__offerText/image__offerText.css);
+@import url(./blocks/image/__prevPrice/image__prevPrice.css);
+@import url(./blocks/image/__prevPriceContainer/image__prevPriceContainer.css);
+@import url(./blocks/image/__price/image__price.css);
+@import url(./blocks/image/__priceContainer/image__priceContainer.css);
+@import url(./blocks/image/__timer/image__timer.css);
+@import url(./blocks/image/image.css);
+@import url(./blocks/container/container.css);
+@import url(./blocks/product/__content/product__content.css);
+@import url(./blocks/product/__info/product__info.css);
+@import url(./blocks/product/__grade/product__grade.css);
+@import url(./blocks/product/__otherInfo/product__otherInfo.css);
+@import url(./blocks/prewiev/prewiev.css);
+@import url(./blocks/slider/slider.css);
+@import url(./blocks/slider/__container/slider__container.css);
+@import url(./blocks/product/__text/product__text.css);
+@import url(./blocks/product/__text/_strong/product__text_strong.css);
+@import url(./blocks/product/__star/product__star.css);
+@import url(./blocks/product/__starContainer/product__starContainer.css);
+@import url(./blocks/product/__starCount/product__starCount);
+@import url(./blocks/product/__dropdownColor/product__dropdownColor.css);
+@import url(./blocks/product/__dropdownContainer/product__dropdownContainer.css);
+@import url(./blocks/product/__dropdownSize/product__dropdownSize.css);
+@import url(./blocks/product/__dropdownText/product__dropdownText.css);
+
+body {
+  height: 100%;
+  width: 390px;
+  font-family: "Gotham Pro", sans-serif;
+}
+
+h1 {
+  color: red;
+}
+
+.element__card {
+  margin: 0;
+}
+
+.element__image {
+  width: 80px;
+  height: 66px;
+}
+
+.element__imageStar {
+  display: flex;
+  align-items: center;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown_image {
+  position: absolute;
+  top: 21px;
+  right: 13px;
+  transition: all 0.5s;
+}
+
+.dropbtn {
+  display: flex;
+  position: relative;
+  width: 170px;
+  height: 50px;
+  background-color: #fff;
+  border-radius: 15px;
+  border: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.dropbtn__text {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.dropdown__content {
+  position: absolute;
+  top: 52px;
+  left: 0;
+  flex-direction: column;
+  margin: 5px 0 0 0;
+  padding: 5px;
+  box-sizing: border-box;
+  width: 170px;
+  background-color: #fff;
+  border-radius: 15px;
+  z-index: 3;
+}
+
+.dropdown__btn {
+  background-color: #fff;
+  border: none;
+  padding: 5px;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.product__buy {
+  margin: 20px 0 0 0;
+  display: flex;
+  border-radius: 15px;
+  background: #37d997;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  width: 356px;
+  height: 50px;
+  font-size: 30px;
+  font-weight: 400;
+  color: #fff;
+}

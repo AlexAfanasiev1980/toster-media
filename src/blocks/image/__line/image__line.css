@@ -1,0 +1,9 @@
+.image__line {
+    position: absolute;
+    margin: 0;
+    top: 7px;
+    width: 89px;
+    border: solid 3px #e27500;
+    border-radius: 3px;
+    z-index: 999;
+  }

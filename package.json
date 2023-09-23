@@ -1,0 +1,26 @@
+{
+  "name": "toster-media",
+  "version": "1.0.0",
+  "description": "Alexander toster media",
+  "main": "app.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open",
+    "build": "webpack --mode production"
+  },
+  "keywords": [
+    "js",
+    "javascript"
+  ],
+  "author": "Alexander Afanasiev <armawir1@mail.ru>",
+  "license": "ISC",
+  "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.7.3",
+    "html-loader": "^4.2.0",
+    "html-webpack-plugin": "^5.5.3",
+    "style-loader": "^3.3.2",
+    "webpack": "^5.80.0",
+    "webpack-cli": "^5.0.2",
+    "webpack-dev-server": "^4.13.3"
+  }
+}
