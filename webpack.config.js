@@ -7,7 +7,7 @@ module.exports = {
   output: {
     filename: "bundle.[chunkhash].js",
     path: path.resolve(__dirname, "public"),
-    assetModuleFilename: "images/[name][ext]",
+    assetModuleFilename: "images/[hash][ext]",
   },
   devServer: {
     port: 3000,
@@ -25,12 +25,13 @@ module.exports = {
         use: ["style-loader", "css-loader"],
       },
       {
-        test: /\.(png|svg|jpg|jpeg|gif)$/i,
-        loader: "file-loader",
-        options: {
-          name: '/images/[name].[ext]'
-        },
+        test: /\.(png|jpg|jpeg|gif)$/i,
         type: "asset/resource",
+      },
+      {
+        test: /\.svg$/i,
+        type: 'asset',
+        loader: 'svgo-loader'
       },
       {
         test: /\.html$/,
