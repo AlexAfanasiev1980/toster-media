@@ -7,7 +7,7 @@ module.exports = {
   output: {
     filename: "bundle.[chunkhash].js",
     path: path.resolve(__dirname, "public"),
-    assetModuleFilename: "images/[hash][ext]",
+    assetModuleFilename: "images/[name][ext]",
   },
   devServer: {
     port: 3000,
